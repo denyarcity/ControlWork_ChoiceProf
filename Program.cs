@@ -1,4 +1,5 @@
-﻿Console.Write("Введите массив данных через ',': ");
+﻿Console.Clear();
+Console.Write("Введите массив данных через ',': ");
 string strLine = Console.ReadLine();
 string[] inArr = strLine.Split(","); //строка преобразуеться в массив где разделителем между элементами является ,
 string[] outArr = new string[0];
